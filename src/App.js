@@ -5,7 +5,7 @@ import Sidebar from "./containers/Sidebar";
 
 function App() {
   return (
-    <div className="w-full h-screen min-w-[1366px] min-h-[768px] text-[#BDDBED] bg-[#022A4F] box-border mx-auto relative flex">
+    <div className="w-full h-full min-h-screen text-[#BDDBED] bg-[#022A4F] box-border mx-auto relative flex">
       <Sidebar />
       <Main />
       <Footer />
