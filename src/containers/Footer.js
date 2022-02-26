@@ -1,5 +1,7 @@
 import React from "react";
-import { FaTwitter, FaDiscord, FaEnvelope } from "react-icons/fa";
+import twitter from "../assets/images/icons/twitter.svg";
+import discord from "../assets/images/icons/discord.svg";
+import email from "../assets/images/icons/email.svg";
 
 const Footer = () => {
   return (
@@ -7,13 +9,13 @@ const Footer = () => {
       <span />
       <div className="flex text-3xl gap-x-3">
         <a href="#">
-          <FaTwitter />
+          <img src={twitter} alt="twitter" />
         </a>
         <a href="#">
-          <FaDiscord />
+          <img src={discord} alt="discord" />
         </a>
         <a href="#">
-          <FaEnvelope />
+          <img src={email} alt="email" />
         </a>
       </div>
       <p className="text-lg">v0.1.0</p>
