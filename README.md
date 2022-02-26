@@ -2,6 +2,10 @@
 
 This project was bootstrapped with React-APP and Electron
 
+## Project Setup
+After clonning the repository run the follwoing commands to install the dependancies.
+### `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
